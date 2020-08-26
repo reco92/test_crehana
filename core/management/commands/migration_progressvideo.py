@@ -61,14 +61,3 @@ class Command(BaseCommand):
             item.registration = map_registration[item.course.id][item.user.id]
 
         ProgressVideo.objects.bulk_update(all_progress, ['category', 'registration'])
-
-
-
-        
-
-
-
-
-
-
-        
